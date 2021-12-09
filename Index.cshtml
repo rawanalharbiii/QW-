@@ -1,0 +1,114 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+
+
+<header class="masthead bg-primary py-5" style="background-image: url('../../images/asterr.png'); background-attachment: fixed; ">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center justify-content-center">
+            <div class="col-lg-8 col-xl-7 col-xxl-6">
+                <div class="container my-3 text-center  shadow rounded-3" style="opacity: 0.8; background-color:#fff; margin: 2px; padding: 2em;">
+                    <h2 class="mb-2 lang-content" data-lang-english="WELCOME TO<br /> ASTER SANAD HOSPITAL" data-lang-arabic="مرحبًا بكم في <br />في مستشفى أستر سند" style="color:#00a883" >WELCOME TO<br /> ASTER SANAD HOSPITAL</h2>
+                    <p class="mb-4  lang-content" data-lang-english=" Thank you for trusting us with your care. Rest assured: We’ll Treat You Well.
+                        Since our doors opened in 2008, we’ve continued to build on our reputation as one of the leading healthcare providers in Riyadh and the Kingdom." data-lang-arabic="ﻧﺸﻜﺮﻛﻢ ﻋﻠﻰ ﺛﻘﺘﻜﻢ ﺑﻨﺎ ﻟﺘﻘﺪﻳﻢ اﻟﺨﺪﻣﺎت اﻟﻄﺒﻴﺔ ﻟﻜﻢ، ﻛﻮﻧﻮا ﻋﻠﻰ ﺛﻘﺔ ﺳﻨﻌﺘﻨﻲ ﺑﻜﻢ دائماَ
+                        ﻣﻨﺬ اﻓﺘﺘﺎح اﻟﻤﺴﺘﺸﻔﻰ ﻓﻲ ﻋﺎم 2008 ﺳﻌﻴﻨﺎ ﺟﺎﻫﺪﻳﻦ ﻟﺒﻨﺎء ﺳﻤﻌﺘﻨﺎ ﻟﻨﻜﻮن أﺣﺪ أﺑﺮز ﻣﻘﺪﻣﻲ اﻟﺮﻋﺎﻳﺔ اﻟﺼﺤﻴﺔ ﻓﻲ اﻟﺮﻳﺎض واﻟﻤﻤﻠﻜﺔ اﻟﻌﺮﺑﻴﺔ اﻟﺴﻌﻮدﻳﺔ" style="font-weight:bold">
+                        Thank you for trusting us with your care. Rest assured: We’ll Treat You Well.
+                        Since our doors opened in 2008, we’ve continued to build on our reputation as one of the leading healthcare providers in Riyadh and the Kingdom.
+                    </p>
+                    <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                        <a href="https://astersanadhospital.com/" class="btn btn-primary btn-lg  lang-content" data-lang-english="For more" data-lang-arabic="للمزيد &raquo; ">For more &raquo;</a>
+                        <br />
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-5 col-xxl-6 d-none d-xl-block text-center">
+                <!--<img class="img-fluid rounded-1 my-3" src="~/images/asterr.png" alt="..." />-->
+            </div>
+        </div>
+    </div>
+</header>
+
+<body>
+    <div class="shadow border-0 m-5">
+        <div class="container">
+            <section class="page-section portfolio" id="portfolio">
+                <div class="container">
+                    <!-- Heading-->
+                    <!-- Icon -->
+                    <div class="divider-custom">
+                        <div class="divider-custom-line"></div>
+                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                        <div class="divider-custom-line"></div>
+                    </div>
+                    <!-- Items-->
+
+                        <div class="row justify-content-center">
+                            <div class="col-md-4 col-lg-3 ">
+                                <div class="portfolio-item mx-4" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                    <a href="/Home/wifi" style="text-decoration:none">
+
+                                        <img class="img-fluid rounded-2" src="~/images/w2.png" />
+                                    </a>
+                                </div>
+                                <a href="/Home/wifi" style="text-decoration:none"> <h3 class="text-center  lang-content" data-lang-english="Free <br /> wifi" data-lang-arabic="واي فاي مجانًا"> Free <br /> wifi</h3></a>
+                            </div>
+
+                            <div class="col-md-4 col-lg-3 ">
+                                <div class="portfolio-item mx-4" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                                    <a href="/Home/smoking" style="text-decoration:none"> <img class="img-fluid rounded-2 " src="~/images/d1.png" hight="200" alt="..." /></a>
+                                </div>
+                                <a href="/Home/smoking" style="text-decoration:none"> <h4 class="text-center lang-content" data-lang-english="Smoking<br /> Not Allowed" data-lang-arabic="التدخين"> Smoking </h4></a>
+
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="portfolio-item mx-4" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                                    <a href="/Home/visiting" style="text-decoration:none"> <img class="img-fluid rounded-2" src="~/images/v1.png" hight="1000" alt="..." /></a>
+                                </div>
+                                <a href="/Home/visiting" style="text-decoration:none"> <h4 class="text-center lang-content" data-lang-english="Visiting <br />Guidelines" data-lang-arabic="دليل الزيارة"> Visiting <br />Guidelines</h4></a>
+
+                            </div>
+                            <div class="col-md-4 col-lg-3">
+                                <div class="portfolio-item mx-4" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+
+                                    <a href="/Home/telephone" style="text-decoration:none">
+                                        <img class="img-fluid rounded-2" src="~/images/t1.png" hight="200" alt="..." />
+                                    </a>
+                                </div>
+                                <a href="/Home/telephone" style="text-decoration:none">  <h4 class="text-center lang-content" data-lang-english="Telephone<br /> Directory" data-lang-arabic="دليل الهاتف"> Telephone Directory </h4></a>
+                            </div>
+
+                        </div>
+                   
+                </div>
+            </section>
+            <div class="divider-custom">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-6 col-xl-6">
+                            <h2 class="body-content lang-content" data-lang-english="Things <br />You Need to Know <br /> About Your Stay" data-lang-arabic=" أﺷﻴﺎء ﺗﺤﺘﺎج إﻟﻰ ﻣﻌﺮﻓﺘﻬﺎ ﻋﻦ إﻗﺎﻣﺘﻚ">
+                                Things <br />You Need to Know <br /> About Your Stay
+                            </h2>
+
+                            <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start">
+                                <p> <a href="/Home/Things" class="btn btn-primary btn-lg lang-content" data-lang-english="learn more &raquo;" data-lang-arabic="للمزيد &raquo;"> learn more &raquo;</a></p>
+                            </div>
+
+                        </div>
+                        <div class="col-xl-6 col-xxl-5  d-xl-block text-center ">
+                            <img class="img-fluid  my-4" src="~/images/000.png" style="border-radius:15%; " alt="..." />
+
+                        </div>
+                    </div>
+
+
+
+        </div>       
+    </div>
+</body>
